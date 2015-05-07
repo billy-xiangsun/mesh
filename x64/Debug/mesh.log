@@ -1,0 +1,25 @@
+﻿Build started 5/7/2015 10:44:12 AM.
+     1>Project "C:\Users\sunx\Documents\libQGLViewer-2.6.1\examples\mesh\mesh.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing mainwindow.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I..\..\..\lib /I..\..\..\lib\Eigen /I..\..\..\lib\OpenMesh\include /I..\.. /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtWidgets /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtXml /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /Idebug /I. /I"C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D _USE_MATH_DEFINES /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\Debug\moc_mainwindow.cpp main.cpp mainwindow.cpp viewer.cpp
+         moc_mainwindow.cpp
+         main.cpp
+         mainwindow.cpp
+         viewer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\mesh.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib /LIBPATH:C:\Users\sunx\Documents\lib\OpenMesh\lib /LIBPATH:C:\Windows\System32 glu32.lib opengl32.lib gdi32.lib user32.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\qtmaind.lib shell32.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib C:\Users\sunx\Documents\lib\OpenMesh\lib\OpenMeshCore.lib C:\Windows\System32\QGLViewerd2.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5OpenGLd.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Widgetsd.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Guid.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Xmld.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\mesh.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\qglviewer.res
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\meshobject.obj
+         x64\Debug\renderer.obj
+         x64\Debug\viewer.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Windows\System32\QGLViewerd2.lib'
+     1>Done Building Project "C:\Users\sunx\Documents\libQGLViewer-2.6.1\examples\mesh\mesh.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.95

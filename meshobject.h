@@ -5,6 +5,7 @@
 
 #include <OpenMesh/Core/IO/MeshIO.hh>   // Must be included before mesh kernel
 #include <OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh>
+#include <OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh>
 
 
 class Renderer;
@@ -79,7 +80,8 @@ struct MyTraits : public OpenMesh::DefaultTraits
     };
 };
 
-typedef OpenMesh::PolyMesh_ArrayKernelT<MyTraits> MyMesh;
+typedef OpenMesh::PolyMesh_ArrayKernelT<MyTraits> MyPolyMesh;
+typedef OpenMesh::TriMesh_ArrayKernelT<MyTraits> MyTriMesh;
 
 
 class MeshObject
@@ -90,7 +92,8 @@ public:
 
     friend class Renderer;
 private:
-    MyMesh* mesh_;
+    MyPolyMesh* pm_;
+    MyTriMesh*  tm_;
     //Renderer *_rd;
 };
 
